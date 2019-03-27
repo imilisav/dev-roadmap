@@ -5,9 +5,9 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <title>Web Developer Roadmap</title>
+  <meta name="description" content="An educational roadmap teaching newcomers what skills, tools and courses one should take to be a professional web developer.">
+  <meta name="author" content="Ilija Milisav">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -21,24 +21,226 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png">
 
 </head>
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
-      </div>
-    </div>
-  </div>
+  <header>
+    <h1>Web Developer Roadmap</h1>
+    <h6>Written by Ilija Milisav <a class="github-button" href="https://github.com/imilisav" aria-label="Follow @imilisav on GitHub">Follow @imilisav</a></h6>
+    <p>If you see I can improve something on the roadmap, let me know with an issue, and I'll try my best to change it.</p>
+  </header>
+
+  <aside id="ballContainer">
+    <img src="images/untitled.svg">
+  </aside>
+  
+  <section id="mainContainer">
+    <article>
+      <h2>First Things First ⚠️</h2>
+      <p>There are a few things that you have to learn along with what is present on the roadmap, 
+        to make you a better developer overall. Some skills may seem useless, but they will become 
+        useful as you cover parts of the roadmap.</p>
+      <p><b>Version control</b> – Most of your work will be done with some sort of version control. 
+        This allows for easy collaboration with others and easy recordkeeping on what is being changed at all times.
+        Git is most common and is a good starting point.</p>
+      <a href="https://guides.github.com/activities/hello-world/">Git and Github</a>
+      <br><br>
+      <p><b>Command Line</b> – being able to control your computer with a few lines from the terminal will make your workflow
+        a breeze. <b>After learning this, figure out how to use git from the command line.</b>
+      </p>
+      <a href="https://tutorial.djangogirls.org/en/intro_to_command_line/">Using the command line</a>
+      <br><br>
+      <p><b>Basic data structures and algorithms</b> – This is important, as it teaches you to think like a programmer. 
+        You'll learn how to use arrays, strings, integers and so on. <b>Pick any programming 
+          language you want for this.</b> Although, if you're new to programming, I recommend you start with python.</p>
+
+      <a href="https://hackr.io/">Hacker.io Tutorials</a><br>
+      <a href="https://github.com/ossu/computer-science">Open Source Society Computer Science Degree</a><br><br>
+      <p><b>Licensing</b> – If you plan on making your stuff to open source or pushing it to market, 
+        you'll need to read up on the various licenses.</p>
+
+      <a href="https://choosealicense.com/licenses/">Find Licenses here</a><br><br>
+    </article>
+
+    <article>
+      <h2>Choose a Side ⬅️➡️</h2>
+      <p>Now that you've gotten familiar with some basic concepts, tools and skills, 
+        now we'll get into the juicy details. In web development, people like to 
+        classify various skills or tools into two sides of a website, a <b>client side</b> and a <b>server side</b>.
+        It is very likely you'll encounter working with concepts from both sides. 
+        I highly encourage going through both sides of the roadmap. Although, feel free to skip ahead to whichever one you want.</p>
+      <a href="#clientSideArticle">Client-Side</a>
+      <a href="#serverSideArticle">Server-Side</a>
+      <br><br>
+    </article>
+
+      <article>
+        <h3 id="clientSideArticle">Client-Side 👀</h3>
+        <p>Client-side refers to the part of the website, which you can see and interact with.</p>
+      </article>
+
+        <article>
+          <h4>HTML</h4>
+          <p>Hyper Text Markup Language or known as HTML, is used to layout the text and other related components such as images, sound and more.
+            onto the web page. HTML elements can have attributes which can be modified by CSS, which is the next topic to
+            be talked about.
+          </p>
+          <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML">Learn HTML</a><br><br>
+        </article>
+
+        <article>
+          <h4>CSS</h4>
+          <p>CSS is used to style the HTML and lay it out. For example, you can use CSS to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS">Learn CSS</a><br><br>
+        </article>
+
+          <article>
+            <h5>Pre-Processors 💿</h5>
+            <p>A Pre-Processor is code that is more developer friendly to write, but will be compiled into CSS for a website.</p>
+            <p>A popular pre-processor for CSS is <a href="https://sass-lang.com/">SASS</a>.</p>
+          </article>
+
+          <article>
+            <h5>Frameworks 🖼️</h5>
+            <p>Frameworks make the dream work! Haha, on a serious note, frameworks are used to create a default style for developers so they can focus on the content creation rather than handling the styling for multiple browsers.</p>
+            <p>A popular framework for CSS is <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/">Bootstrap</a>.</p>
+          </article>
+
+          <article>
+            <h5>Architecture 📐</h5>
+            <p>In simple terms, architecture refers to a industry standard of writing CSS code. A common architecture is the <a href="http://getbem.com/introduction/">Block Element Modifier</a>.</p>
+          </article>
+
+        <article>
+          <h4>JavaScript</h4>
+          <p>JavaScript is used to make the content more alive, such as moving items around or updating content on the website based on user interaction.</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">Learn JavaScript</a><br><br>
+        </article>
+
+          <article>
+            <h5>Frameworks 🖼️</h5>
+            <p>JavaScript frameworks are code that has been written for the common developer to do routine tasks correctly and to standard.</p>
+            <a href="https://reactjs.org/">Learn React</a><br>
+            <a href="https://angular.io/">Learn Angular</a><br><br>
+          </article>
+
+        <article>
+          <h4>Package Managers 📦</h4>
+          <p>Package managers are used to add more additional code to your JavaScript and keeps those code segments up to standard. It also checks if you have
+            a framework as well, and adds the framework specific code to add the desired code segment.
+          </p>
+          <a href="https://www.npmjs.com/">Node Package Manager (NPM)</a><br>
+          <a href="https://yarnpkg.com/en/">Yarn</a><br><br>
+        </article>
+
+        <article>
+          <h4>Build Tools 🔨</h4>
+          <p>Lots of work is clearly required to manage all these aspects of the client-side to keep working, so why not automate this?</p>
+          <p>The package manager NPM also has a build tool that compiles all your code into a efficient readable format for servers. If something is wrong,
+            this tool will let you know about that and where the error occurred.
+          </p>
+          <a href="https://www.npmjs.com/">Node Package Manager (NPM)</a><br><br>
+        </article>
+
+        <article>
+          <h4>Testing 🔢</h4>
+          <p>Testing is crucial, as it can reveal an edge case you might've not thought about. Testing for JavaScript is done via <a href="https://jestjs.io/">Jest</a>.
+          At the same time, read up on testing ideologies and methods.</p>
+        </article>
+
+      <article>
+        <h3 id="serverSideArticle">Server-Side 🖥️</h3>
+        <p>Server-Side refers to the software in the website that interacts with databases, is able to run on a server, handles user requests and redirects the user to different pages on the website.</p>
+      </article>
+
+        <article>
+          <h4>Pick Your <s>Poison</s> Language of Choice 🤔</h4>
+          <p>This is almost identical to the programming language you chose to learn about data structures & algorithms, except choose a language that can
+            be used for server side logic. Learn its syntax, and practicing your data structures & algorithms with this language.
+          </p>
+        </article>
+
+        <article>
+          <h4>Package Managers 📦</h4>
+          <p>This is identical to the package manager used in the client-side except your language of choice has its own package manager. Read the tutorials regarding
+            your language's package manager. For example for Python, <a href="https://pypi.org/project/pip/">pip</a> is used.
+          </p>
+        </article>
+
+        <article>
+          <h4>Standards, and More Standards 📝</h4>
+          <p>Just like with CSS architecture, your language of choice has a strict way to be written. At the time of writing, for python, the style guide <a href="https://www.python.org/dev/peps/pep-0008/">PEP 8</a> is used.</p>
+        </article>
+
+        <article>
+          <h4>Testing 🔢</h4>
+          <p>Testing is crucial, as it can reveal an edge case you might've not thought about. Testing for Python is done via <a href="https://www.seleniumhq.org">Selenium</a>.
+          Use the same testing ideologies you've read about previously for the client-side.</p>
+        </article>
+
+        <article>
+          <h4>Databases 🗄️</h4>
+          <p>This is where the data of the website lives. Databases are storage systems that act faster than hard disk storage, which is crucial for telecommunications.
+          </p>
+          <p>The information can be put in two formats: SQL, noSQL</p>
+        </article>
+
+          <article>
+            <h5>Relational/SQL</h5>
+            <p>SQL – Structured Query Language, is the language used to pull data from relational databases, 
+              which is in other words, a huge table of data. Figure out what the language you chose requires
+            to interface with the SQL database</p>
+              <a href="https://www.postgresql.org/">Learn PostgreSql, an industry favourite</a><br><br>
+          </article>
+
+          <article>
+            <h5>NoSQL</h5>
+            <p>NoSQL – Not only Structured Query Language, is a different way of storing data in a text format, such as JavaScript's Object Notation (JSON). Figure out what the language you chose requires
+              to interface with a NoSQL database.</p>
+              <a href="https://www.postgresql.org/">Learn mongoDB, an industry favourite</a><br><br>
+          </article>
+
+        <article>
+          <h4>RESTful APIs</h4>
+          <p>Representational State Transfer (REST) is a software architectural style that defines a set of protocols that a developer has to follow by for maximum security. Figure how your language uses this protocol.</p>
+          <a href="https://en.wikipedia.org/wiki/Representational_state_transfer">REST in more detail</a><br><br>
+        </article>
+
+    <article>
+      <h2>Conclusion</h2>
+      <p>Hopefully, this provides you enough information to continue learning more about these types of topics and enough to create your projects incorporating these skills, tools and standards.</p>
+      <p>Happy Hacking! 👨‍💻</p>
+    </article>
+
+    <article>
+      <h2>Bibliography</h2>
+      <p>"Bento - Learn To Code And Be A Self-Taught Expert Developer". Bento | Learn To Code And Be A Self-Taught Expert Developer, 2019, https://bento.io/tracks. <br><br>
+          "Design Patterns | Object Oriented Design". Design Patterns | Object Oriented Design, 2019, https://www.oodesign.com/. <br><br>
+          "Hello World · Github Guides". Guides.Github.Com, 2019, https://guides.github.com/activities/hello-world/. <br><br>
+          "Introduction To Command Line · Django Girls Tutorial". Tutorial.Djangogirls.Org, 2019, https://tutorial.djangogirls.org/en/intro_to_command_line/. <br><br>
+          "Licenses". Choose A License, 2019, https://choosealicense.com/licenses/. <br><br>
+          "MDN Web Docs". MDN Web Docs, 2019, https://developer.mozilla.org/en-US/. <br><br>
+          "Ossu/Computer-Science". Github, 2019, https://github.com/ossu/computer-science. <br><br>
+          "Roadmaps - Curated & Recommended By The Community | Hackr.Io". Hackr.Io, 2019, https://hackr.io/programming/roadmaps. <br><br>
+          "W3schools Online Web Tutorials". W3schools.Com, 2019, https://www.w3schools.com/. <br><br>
+          Coleman, Alex. "Behind The Scenes: The Creation Of A Web Application Resources – Self-Taught Coders". Self-Taught Coders, 2019, https://selftaughtcoders.com/web-development/web-app-journey/. <br><br>
+          Felder, Lynda. Writing For The Web. 1st ed., New Riders, 2012. <br><br>
+          Kamran, Ahmed. "Kamranahmedse/Developer-Roadmap". Github, 2019, https://github.com/kamranahmedse/developer-roadmap. Accessed 27 Mar 2019. <br><br>
+          Knight, Forrest. "Forrestknight/Open-Source-Cs". Github, 2019, https://github.com/ForrestKnight/open-source-cs. Accessed 26 Mar 2019</p>
+    </article>
+  </section>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

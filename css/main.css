@@ -1,0 +1,32 @@
+body {
+    padding: 2rem;
+}
+
+body header {
+    border-bottom: solid #EEE 1px;
+}
+
+#ballContainer {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    background-color: #EEF;
+    width: 100px;
+    float: left;
+    border-radius: 5rem;
+    height: 5000px;
+}
+
+#ballContainer img {
+    position: fixed;
+}
+
+#mainContainer {
+    margin-top: 2rem;
+    height: 100%;
+}
+
+#mainContainer article h3 { color: navy; }
+#mainContainer article h4 { color: mediumblue; }
+#mainContainer article h5 { color: blue; }
+#mainContainer article h6 { color: #33acff; }
+
